@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Img/icono.jpg">
+        <title>Calcutredora</title>
+    </head>
+    <body>
+        <form name="calculadora">
+            <h1>CALCUTREDORA</h1>
+            <table>
+                <tr>
+                    <td colspan="4" align="center"><input type="textfield" name="ans" value=""></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-1-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='1'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-numbe-2r-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='2'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-3-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='3'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/suma.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-4-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='4'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-5-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='5'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-6-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='6'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/resta.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-7-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='7'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-8-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='8'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-9-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='9'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/asterisco.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="  " style="background-image: url(Img/tropical-decorated-number-0-by-Vexels.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='0'"></td>
+                    <td><input type="reset" value="  " style="background-image: url(Img/tropical-decorated-capital-letter-c.png);background-size: 100% 100%;"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/barra-lateral.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value+='/'"></td>
+                    <td><input type="button" value="  " style="background-image: url(Img/igual.png);background-size: 100% 100%;" onClick="document.calculadora.ans.value=eval(document.calculadora.ans.value)"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

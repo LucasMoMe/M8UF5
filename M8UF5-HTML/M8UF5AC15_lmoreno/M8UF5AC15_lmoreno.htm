@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularis d'enviament</title>
+        <script type="text/javascript">
+            function validar() {
+                var psswd=document.getElementById("psswd").value;
+                var confpsswd=document.getElementById("confpsswd").value;
+                if (psswd=confpsswd) {
+                    return true;
+            }
+            else{
+                alert("No coincideix");
+                return false;
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <table style="background-color: #EFEFEF;">
+            <form action="mailto:lucas.moreno@inslapineda.cat" method="post" enctype="text/plain" onsubmit="return validar();">
+                <tr>                    
+                    <td  width="50" rowspan="15"></td>
+                    <td colspan="5">
+                        <legend style="background-color: blue;">
+                        <p>&ensp;</p>
+                        <h2 style="color: aliceblue;">Enviar missatge <img align="right" src="Img/gb_reload_s.gif" alt="Logo"></h2>
+                        <p>&ensp;</p>
+                        </legend>
+                    </td>
+                    <td  width="50" rowspan="15"></td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>Nom:</td>
+                        <td><input type="text" name="nom"></td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail:</td>
+                        <td><input type="email" name="E-Mail" required="true"></td>
+                    </tr>
+                    <tr>
+                        <td>Usuari:</td>
+                        <td><input type="text" name="usuari" maxlength="8" required="true"></td>
+                    </tr>
+                    <tr>
+                        <td>Contrasenya:</td>
+                        <td><input type="password" name="contrasenya" required="true" id="psswd"></td>
+                    </tr>
+                    <tr>
+                        <td>Repetició de la contrasenya:</td>
+                        <td><input type="password" name="contrasenya" required="true" id="confpsswd"></td>
+                    </tr>
+                    <tr>
+                        <td>Quins jocs t'interessen?</td>
+                        <td><input type="checkbox" name="jocs" value="clash royale">Clash Royale</td>
+                        <td><input type="checkbox" name="jocs" value="clash of clans">Clash of Clans</td>
+                        <td><input type="checkbox" name="jocs" value="brawl stars">Brawl stars</td>
+                        <td><input type="checkbox" name="jocs" value="pokemon go">Pokemon GO</td>
+                    </tr>
+                    <tr>
+                        <td>Arxiu:</td>
+                        <td><input type="file" name="arxiu"></td>
+                    </tr>
+                    <tr>
+                        <td>Imatge:</td>
+                        <td><input type="file" name="imatge"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" align="center"><small>El tamany de l'arxiu i la imatge no pot exedir els 4 KBytes</small></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" align="center">
+                            Requereixo resposta: 
+                            <input type="radio" name="resposta" value="si">Si
+                            <input type="radio" name="resposta" value="no">No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="5">Missatge</td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="5"><textarea name="missatge" id="missatge" cols="45" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="5">
+                            <button type="submit" value="Enviar">Enviar</button>
+                            <button type="reset" value="Borrar">Borrar</button>
+                        </td>
+                    </tr>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
