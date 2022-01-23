@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    color: white;
+}
+.uno{
+    float: inline-start;
+    width: 150px;
+    height: 764px;
+}
+.uno #uno{
+    background-color: white;
+    height: 150px;
+}
+.uno #dos{
+    margin-top: 7px;
+    background-color: white;
+    height: 400px;
+}
+.uno #tres{
+    margin-top: 7px;
+    background-color: white;
+    height: 50px;
+}
+.uno #cuatro{
+    margin-top: 7px;
+    background-color: white;
+    height: 143px;
+}
+.dos{
+    background-color: orange;
+    float: inline-start;
+    margin-left: 7px;
+    width: 150px;
+    height: 764px;
+}
+.tres{
+    float: inline-start;
+    margin-left: 7px;
+    width: 150px;
+    height: 764px;
+}
+.tres #uno{
+    background-color: blue;
+    height: 220px;
+}
+.tres #dos{
+    margin-top: 7px;
+    background-color: orange;
+    height: 537px;
+}
+.cuatro{
+    float: inline-start;
+    margin-left: 7px;
+    width: 150px;
+    height: 764px;
+}
+.cuatro #uno{
+    background-color: red;
+    height: 500px;
+}
+.cuatro #dos{
+    float: left;
+    margin-top: 7px;
+    background-color: red;
+    height: 50px;
+    width: 71px;
+}
+.cuatro #tres{
+    float: right;
+    margin-top: 7px;
+    margin-left: 7px;
+    background-color: red;
+    height: 50px;
+    width: 71px;
+}
+.cuatro #cuatro{
+    float: left;
+    margin-top: 7px;
+    background-color: darkblue;
+    height: 200px;
+    width: 71px;
+}
+.cuatro #cinco{
+    float: right;
+    margin-top: 7px;
+    margin-left: 7px;
+    background-color: red;
+    height: 200px;
+    width: 71px;
+}
+.cincoyseis{
+    float: inline-start;
+    margin-left: 7px;
+    width: 150px;
+    height: 764px;
+}
+.cincoyseis #uno{
+    float: left;
+    background-color: orange;
+    height: 150px;
+    width: 71px;
+}
+.cincoyseis #dos{
+    float: right;
+    background-color: orange;
+    margin-left: 7px;
+    width: 71px;
+    height: 71px;
+}
+.cincoyseis #tres{
+    float: right;
+    background-color: red;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 71px;
+    height: 72px;
+}
+.cincoyseis #cuatro{
+    float: left;
+    background-color: white;
+    margin-top: 7px;
+    width: 71px;
+    height: 60px;
+}
+.cincoyseis #cinco{
+    float: right;
+    background-color: white;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 71px;
+    height: 60px;
+}
+.cincoyseis #seis{
+    float: left;
+    background-color: red;
+    margin-top: 7px;
+    width: 150px;
+    height: 275px;
+}
+.cincoyseis #siete{
+    float: left;
+    background-color: orange;
+    margin-top: 7px;
+    width: 71px;
+    height: 257px;
+}
+.cincoyseis #ocho{
+    float: right;
+    background-color: orange;
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 71px;
+    height: 257px;
+}

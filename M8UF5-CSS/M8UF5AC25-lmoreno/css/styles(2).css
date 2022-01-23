@@ -1,0 +1,29 @@
+header{
+    height: 50px;
+    background-color: red;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+aside{
+    height: 317px;
+    float:left;
+    width: 20%;
+    background-color: green;
+}
+div{
+    margin-left: 21%;
+}
+nav{
+    height: 50px;
+    background-color: cyan;
+}
+article{
+    height: 258px;
+    background-color: yellow;
+    margin-top: 7px;
+}
+footer{
+    height: 70px;
+    background-color: purple;
+    margin-top: 7px;
+}

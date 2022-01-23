@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+.yellow{
+    font-weight: 900;
+    background-color: yellow;
+}
+.hora{
+    font-weight: 900;
+}
+.glob{
+    border: 1px solid;
+}
+.global{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+}
+#ocho{
+    grid-row: span 3;
+    padding-top: 80px;
+}
+#nueve{
+    grid-row: span 2;
+    padding-top: 15px;
+}#once{
+    grid-row: span 3;
+    padding-top: 80px;
+}
+#doce{
+    grid-row: span 2;
+    padding-top: 15px;
+}
+#catorce{
+    grid-row: span 2;
+    padding-top: 50px;
+}
+#quince{
+    padding-top: 25px;
+}
+#diecinueve{
+    grid-column: span 5;
+}
+#veinte{
+    padding-top: 25px;
+}
+#veintiuno{
+    grid-row: span 3;
+    padding-top: 160px;
+}
+#veinticuatro{
+    grid-row: span 2;
+    padding-top: 80px;
+}
+#veintiseis{
+    padding-top: 25px;
+}
+#treinta{
+    padding-top: 25px;
+}

@@ -1,0 +1,109 @@
+body{
+    text-align: center;
+}
+#index{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    background-color:  #4d5656;
+}
+#index > li{
+    border: 3px solid black;
+    border-bottom: none;
+    border-top: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+    float: left;
+    min-width: 100px;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#index > #reservar{
+    border-left: none;
+    border-right: none;
+}
+#llac{
+    height: 400px;
+    width: 900px;
+}
+#titol1{
+    margin-top: 30px;
+    color: green;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#global{
+    display: flex;
+    justify-content: center;
+}
+.llocs{
+    height: 130px;
+    width: 200px;
+}
+#global > div > p{
+    font-size: 14px;
+}
+#primero{
+    float: inline-start;
+    margin-right: 30px;
+}
+#segundo{
+    float: left;
+    margin-right: 30px;
+}
+#tercero{
+    float: left;
+}
+p{
+    font-size: 10px;
+    margin: 0;
+}
+#primeralinea{
+    margin-top: 40px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+hr{
+    margin-top: 20px;
+    opacity: calc(0.25);
+}
+footer > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 10px;
+    opacity: calc(0.60);
+}
+#fprimero{
+    margin-right: 20px;
+}
+#fsegundo{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.llocs:hover{
+    opacity: calc(30%);
+}
+button:hover{
+    opacity: calc(30%);
+}

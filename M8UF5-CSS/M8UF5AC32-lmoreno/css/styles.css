@@ -1,0 +1,117 @@
+body{
+    background-image: url(../Img/fons.jpg);
+}
+#global{
+    color: white; 
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+}
+#SMX2X{
+    float: left;
+    background-color: black;
+    height: 80px;
+    width: 110px;
+    border-radius: 50%;
+    text-align: right;
+    line-height: 80px;
+}
+ul{
+    list-style: none;
+    margin: 0 auto;
+    float: right;
+}
+.item1{
+    background-color: skyblue;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.titol{
+    font-size: 85px;
+    text-align: left;
+    color: black;
+}
+#titol1{
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+#titol2{
+    margin-top: 0px;
+}
+#global2{
+    background-color: grey;
+    height: 210px;
+    text-align: center;
+    margin-left: -1000px;
+    margin-right: -1000px;
+}
+#edifici{
+    float: inline-start;
+    padding-right: 80px;
+    margin-top: 20px;
+    margin-left: 1000px;
+}
+#modul8{
+    float: left;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+#alumne{
+    float: left;
+    margin-top: 20px;
+}
+p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.foto{
+    height: 150px;
+    width: 165px;
+    border-radius: 50%;
+}
+.foto:hover{
+    opacity: calc(40%);
+}
+.item1:hover{
+    background-color: darkmagenta;
+}
+#SMX2X:hover{
+    background-color: green;
+}
+.fa-instagram{
+    font-size: 20px;
+    margin-left: 265px;
+    margin-right: 5px;
+    color: white; 
+}
+.fa-facebook-square{
+    color: blue;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fa-twitter{
+    color: skyblue;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fa-reddit{
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fa-snapchat-square{
+    color: yellow;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#text-final{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}

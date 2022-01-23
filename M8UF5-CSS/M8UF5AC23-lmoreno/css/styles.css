@@ -1,0 +1,51 @@
+table{
+    width: 70%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-image: url(../Img/IMAGEN.png);
+    background-position: center;
+}
+.p1{
+    background-color: #ff8ddf;
+}
+.p2{
+    background-color: #f94bc8;
+}
+.p3{
+    background-color: #e527b0;
+}
+.p4{
+    background-color: #c41f96;
+}
+.p5{
+    background-color: #bc198e;
+}
+.p6{
+    background-color: #a4137b;
+}
+.p7{
+    background-color: #950f6f;
+}
+.p8{
+    background-color: #810b60;
+}
+.p9{
+    background-color: #6e0852;
+}
+.p10{
+    background-color: #5b0443;
+}
+p:hover{
+    background-color: darkorange;
+}
+.s1{
+    text-decoration-line: underline;
+}
+.s2{
+    text-decoration-line: overline;
+}
+.s3{
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reserva JA</title>
+    </head>
+    <body>
+        <table style="background-color: #EFEFEF;">
+            <form action="mailto:lucas.moreno@inslapineda.cat" method="post" enctype="text/plain" onsubmit="return validar();">
+                <tr>                    
+                    <td  width="50" rowspan="15"></td>
+                    <td colspan="5">
+                        <legend style="background-color: blue;">
+                        <p>&ensp;</p>
+                        <h2 style="color: aliceblue;">Reserva JA</h2>
+                        <p>&ensp;</p>
+                        </legend>
+                    </td>
+                    <td  width="50" rowspan="15"></td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>Nom:</td>
+                        <td><input type="text" name="nom"></td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail:</td>
+                        <td><input type="email" name="E-Mail" required="true"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" align="center">
+                            Quin lloc vols visitar: 
+                            <input type="radio" name="resposta" value="descobreix">Descobreix
+                            <input type="radio" name="resposta" value="luxe">Luxe
+                            <input type="radio" name="resposta" value="paradisos">Paradisos
+                        </td>
+                    <tr>
+                        <td align="center" colspan="5">Tens alguna cosa a dir-nos:</td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="5"><textarea name="Tens alguna cosa a dir-nos" id="Tens alguna cosa a dir-nos" cols="45" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="5">
+                            <button type="submit" value="Enviar">Enviar</button>
+                            <button type="reset" value="Borrar">Borrar</button>
+                        </td>
+                    </tr>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

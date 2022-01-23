@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.caixes{
+    display: inline-block;
+    width: 715px;
+    height: 450px;
+    margin: 1em; 
+}
+.caixa{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    padding-top: 15px;
+    border: 1px solid green;
+}
+.continu{
+    border: 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+.discontinu{
+    border: 2px dashed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+.verd{
+    border-color: green;
+}
+.blau{
+    border-color: blue;
+}
+.vermell{
+    border-color: red;
+}

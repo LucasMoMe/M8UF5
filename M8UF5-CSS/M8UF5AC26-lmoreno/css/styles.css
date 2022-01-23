@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: white;
+}
+#global{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+#uno, #dos, #cinco{
+    width: 200px;
+    height: 70px;
+}
+#tres{
+    width: 100px;
+    height: 140px;
+}
+#cuatro, #seis, #siete, #ocho, #nueve, #diez, #once, #doce{
+    width: 100px;
+    height: 70px;
+}
+#uno{
+    background-color: red;
+    float: left;
+}
+#dos{
+    background-color: blue;
+    float: right;
+}
+#tres{
+    background-color: yellow;
+    float: inline-start;
+}
+#cuatro{
+    background-color: purple;
+    float: left;
+}
+#cinco{
+    background-color: darkblue;
+    float: right;
+}
+#seis{
+    background-color: palevioletred;
+    float: inline-start;
+}
+#siete{
+    background-color: yellow;
+    float: left;
+}
+#ocho{
+    background-color: white;
+    float: right;
+}
+#nueve{
+    background-color: #D2B4De;
+    float: inline-start;
+}
+#diez{
+    background-color:  #6e2c00;
+    float: inline-start;
+}
+#once{
+    background-color: red;
+    float: left;
+}
+#doce{
+    background-color: brown;
+    float: right;
+}

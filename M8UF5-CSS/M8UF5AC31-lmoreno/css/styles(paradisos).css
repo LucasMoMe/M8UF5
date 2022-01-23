@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+#global{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+.uno, .dos, .cinco{
+    width: 200px;
+    height: 70px;
+}
+.tres{
+    width: 100px;
+    height: 140px;
+}
+.cuatro, .seis, .siete, .ocho, .nueve, .diez, .once, .doce{
+    width: 100px;
+    height: 70px;
+}
+.uno{
+    float: left;
+}
+.dos{
+    float: right;
+}
+.tres{
+    float: inline-start;
+}
+.cuatro{
+    float: left;
+}
+.cinco{
+    float: right;
+}
+.seis{
+
+    float: inline-start;
+}
+.siete{
+    float: left;
+}
+.ocho{
+    float: right;
+}
+.nueve{
+    float: inline-start;
+}
+.diez{
+    float: inline-start;
+}
+.once{
+    float: left;
+}
+.doce{
+    float: right;
+}

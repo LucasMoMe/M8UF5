@@ -1,0 +1,21 @@
+li{
+    text-align: center;
+    background-color: mediumblue;
+    color: white;
+    margin: 5px;
+}
+li:hover{
+    outline: 2px solid red;
+}
+.cap_de_setmana{
+    background-color: green;
+}
+.cap_de_setmana:hover{
+    background-color: grey;
+    color: black;
+    outline: 2px solid red;
+}
+ul{
+    width: 125px;
+    list-style: none;
+}
